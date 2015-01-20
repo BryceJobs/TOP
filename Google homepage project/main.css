@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text] {
+	
+	height: 20px;
+}
+
+input[type="text"]:focus {
+	border:1px solid lightblue;
+	height: 22px;
+}
+
+form {
+	text-align: center;
+}
+
+.logo {
+	max-width: 400px;
+	max-height: 100px;
+	display: block;
+	margin: 230px auto 30px;
+}
+
+.avatar{
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 10px;
+	color: #96968F;
+}
+
+li > a > img{
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+nav {
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+a {
+	color:#4b4b48;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	position:absolute;
+	bottom: 0;
+	height: 40px;
+	background-color:  #EBEBE8;
+	width: 100%;
+}
+
+footer ul {
+	margin-top: 10px;
+}
+
+.tou {
+	float: right;
+	padding-right: 30px;
+}
+
+.business {
+	float: left;
+	padding-left: 30px;
+}
